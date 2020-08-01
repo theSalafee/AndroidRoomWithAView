@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onChanged(@Nullable final List<Word> words) {
                 // Update the cached copy of the words in the adapter.
                 adapter.setWords(words);
+                // some comment
             }
         });
 
